@@ -1,0 +1,1 @@
+const t={a11y:{"menu-dialog":{title:{t:0,b:{t:2,i:[{t:3}],s:"側邊選單"}},description:{t:0,b:{t:2,i:[{t:3}],s:"導覽連結列表與使用者偏好設定"}},open:{t:0,b:{t:2,i:[{t:3}],s:"開啟側邊選單"}},close:{t:0,b:{t:2,i:[{t:3}],s:"關閉側邊選單"}}},language:{t:0,b:{t:2,i:[{t:3}],s:"Open language menu / 開啟語言選單"}},mode:{t:0,b:{t:2,i:[{t:3}],s:"深色模式"}}}};export{t as default};

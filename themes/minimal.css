@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400..900&display=swap");
+
+:root {
+  font-family: "Noto Sans TC", sans-serif;
+
+  --color-black: rgb(30, 30, 30);
+  --color-white: rgb(217, 217, 217);
+
+  --tracking-tighter: 0em;
+  --tracking-tight: 0.05em;
+  --tracking-normal: 0.1em;
+  --tracking-wide: 0.15em;
+  --tracking-wider: 0.2em;
+  --tracking-widest: 0.3em;
+
+  --default-transition-duration: 0.3s;
+  --default-transition-timing-function: var(--ease-in-out);
+
+  --text-code: 0.75em;
+  --text-tag: 0.9em;
+
+  --size-fab: calc(var(--spacing) * 12);
+  --position-fab: calc(var(--size-fab) * 0.8);
+
+  --width-container: clamp(
+    21rem,
+    calc(100vw - var(--size-fab) * 2 - var(--position-fab) * 2.5),
+    72rem
+  );
+  --width-sidebar: calc(
+    100dvw - var(--width-container) + var(--spacing) * 15 +
+      var(--px-container) * 2
+  );
+  --height-header: round(nearest, clamp(4rem, calc(3vw + 3.6rem), 5.6rem), 1px);
+}
+
+@layer base {
+  body {
+    letter-spacing: var(--tracking-normal);
+  }
+}
+
+@layer components {
+  .note::before {
+    font-size: 1.2em;
+    filter: drop-shadow(0 0 0.075em currentcolor);
+  }
+}

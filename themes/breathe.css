@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap");
+
+:root {
+  font-family: "LXGW WenKai TC", cursive;
+
+  --color-black: var(--color-gray-950);
+  --color-white: var(--color-gray-50);
+
+  --tracking-normal: 0.3em;
+
+  --default-transition-duration: 0.5s;
+  --default-transition-timing-function: var(--ease-in-out);
+
+  --size-fab: calc(var(--spacing) * 12);
+  --position-fab: calc(var(--size-fab) * 0.8);
+
+  --width-container: min(
+    80rem,
+    calc(100% - var(--size-fab) * 2 - var(--position-fab) * 3)
+  );
+  --height-header: 6rem;
+}
+
+@layer base {
+  body {
+    letter-spacing: var(--tracking-normal);
+  }
+}
