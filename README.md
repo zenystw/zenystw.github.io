@@ -1,9 +1,10 @@
 ﻿# Commit Summary
 
-Generated at: 2025-10-22 11:36:18 +08:00
+Generated at: 2025-10-22 11:45:16 +08:00
 
 
 ## 2025-10-22
+- refactor(scripts): move README generation to build step & update target directory
 - feat(scripts): add automated README generation for deployment
 - refactor(assets): optimize video poster images for improved performance
 
