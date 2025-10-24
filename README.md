@@ -1,9 +1,15 @@
 ﻿# Commit Summary
 
-Generated at: 2025-10-22 11:45:16 +08:00
+Generated at: 2025-10-24 20:56:14 +08:00
 
+
+## 2025-10-24
+- feat(config): add preconnect links for Google Fonts optimization
+- feat(config): integrate `nuxt-vitalizer` & enable asset compression
 
 ## 2025-10-22
+- refactor(i18n): normalize content structure & convert plural fields to singular
+- refactor(scripts): relocate README generator to scripts dir & add dedicated build task
 - refactor(scripts): move README generation to build step & update target directory
 - feat(scripts): add automated README generation for deployment
 - refactor(assets): optimize video poster images for improved performance
