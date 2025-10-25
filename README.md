@@ -1,7 +1,11 @@
-﻿# Commit Summary
+# Commit History
 
-Generated at: 2025-10-24 20:56:14 +08:00
+Generated at: 2025-10-25 11:25:35 +08:00
 
+
+## 2025-10-25
+- refactor(components): enhance `Figure` with skeleton loader & remove poster prop
+- refactor(scripts): migrate README generation from batch to TypeScript & automate via build hook
 
 ## 2025-10-24
 - feat(config): add preconnect links for Google Fonts optimization
