@@ -1,15 +1,39 @@
 # Commit History
 
-Generated at: 2025-10-25 11:25:35 +08:00
+Generated at: 2025-10-26 17:13:29 +08:00
 
+
+## 2025-10-26
+- chore(styles): clean up unused custom properties & refine section heading alignment
+- refactor(styles): migrate component styles from CSS-in-JS to static CSS (#1)
+- merge: integrate latest changes from main & resolve conflicts
+- refactor(styles): flatten nested selectors & complete theme CSS migration
+- refactor(components): migrate `BotDevelopment` side figure styles to theme CSS
+- refactor(components): migrate `ProjectGallery` to theme CSS & adopt `useThemeMotion`
+- refactor(components): migrate `ProjectDescriptions` to theme CSS & adopt `useThemeMotion`
+- refactor(components): migrate `ProjectBlock` to theme CSS & adopt `useThemeMotion`
+- refactor(components): migrate `Portfolio` & `PortfolioSection` to theme CSS & adopt `useThemeMotion`
+- refactor(components): migrate `Skills` & `SkillBlock` to theme CSS & adopt `useThemeMotion`
+- refactor(components): migrate `AboutMe` styles to theme CSS & adopt `useThemeMotion`
+- feat(styles): add `rd-text-sm` utility for responsive small text sizing
+- feat(composables): introduce `useThemeMotion` for centralized theme animation management
 
 ## 2025-10-25
+- refactor(components): enhance `Figure` with theme CSS migration & skeleton loader
 - refactor(components): enhance `Figure` with skeleton loader & remove poster prop
 - refactor(scripts): migrate README generation from batch to TypeScript & automate via build hook
 
 ## 2025-10-24
 - feat(config): add preconnect links for Google Fonts optimization
 - feat(config): integrate `nuxt-vitalizer` & enable asset compression
+- refactor(components): migrate component styles to theme CSS & standardize class naming
+- refactor(components): migrate `Figure` styles to theme CSS
+- refactor(components): migrate `Code` styles to theme CSS & replace with native code
+
+## 2025-10-23
+- refactor(components): migrate `ContactInfo` styles to theme CSS
+- refactor(components): migrate component styles to theme CSS & replace `UiButton` component with native button
+- refactor(components): migrate `Avatar` styles to theme CSS
 
 ## 2025-10-22
 - refactor(i18n): normalize content structure & convert plural fields to singular
